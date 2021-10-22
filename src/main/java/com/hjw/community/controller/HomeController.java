@@ -1,11 +1,10 @@
-package com.hjw.controller;
+package com.hjw.community.controller;
 
-import com.hjw.entity.DiscussPost;
-import com.hjw.entity.Page;
-import com.hjw.entity.User;
-import com.hjw.mapper.DiscussPostMapper;
-import com.hjw.service.DiscussPostService;
-import com.hjw.service.UserService;
+import com.hjw.community.entity.DiscussPost;
+import com.hjw.community.entity.Page;
+import com.hjw.community.entity.User;
+import com.hjw.community.service.DiscussPostService;
+import com.hjw.community.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

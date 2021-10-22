@@ -1,6 +1,6 @@
-package com.hjw.mapper;
+package com.hjw.community.mapper;
 
-import com.hjw.entity.User;
+import com.hjw.community.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

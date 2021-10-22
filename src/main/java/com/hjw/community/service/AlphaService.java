@@ -1,4 +1,4 @@
-package com.hjw.service;
+package com.hjw.community.service;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
@@ -17,17 +17,17 @@ import javax.annotation.PreDestroy;
 //@Scope("prototype")//多例
 public class AlphaService {
 
-    public AlphaService(){
-        System.out.println("实例化AlphaService");
-    }
-
-    @PostConstruct
-    public void init(){
-        System.out.println("初始化AlphaService");
-    }
-
-    @PreDestroy
-    public void destory(){
-        System.out.println("销毁AlphaService");
-    }
+//    public AlphaService(){
+//        System.out.println("实例化AlphaService");
+//    }
+//
+//    @PostConstruct
+//    public void init(){
+//        System.out.println("初始化AlphaService");
+//    }
+//
+//    @PreDestroy
+//    public void destory(){
+//        System.out.println("销毁AlphaService");
+//    }
 }

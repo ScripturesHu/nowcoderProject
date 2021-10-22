@@ -1,6 +1,6 @@
-package com.hjw.mapper;
+package com.hjw.community.mapper;
 
-import com.hjw.entity.DiscussPost;
+import com.hjw.community.entity.DiscussPost;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -15,4 +15,7 @@ public interface DiscussPostMapper {
     // 如果只有一个参数,并且在mapper.xml的<if>里使用,则必须加别名.
     int selectDiscussPostRows(@Param("userId") int userId);
 
+    int insertDiscussPost(DiscussPost discussPost);
+    //查询帖子详情
+    DiscussPost selectDiscussPostById(int id);
 }

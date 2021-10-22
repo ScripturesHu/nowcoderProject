@@ -1,7 +1,8 @@
 package com.hjw;
 
-import com.hjw.dao.AlphaDao;
-import com.hjw.service.AlphaService;
+import com.hjw.community.ExerApplication;
+import com.hjw.community.dao.AlphaDao;
+import com.hjw.community.service.AlphaService;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.BeansException;

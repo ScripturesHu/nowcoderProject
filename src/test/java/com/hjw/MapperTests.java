@@ -1,10 +1,11 @@
 package com.hjw;
 
 
-import com.hjw.entity.DiscussPost;
-import com.hjw.entity.User;
-import com.hjw.mapper.DiscussPostMapper;
-import com.hjw.mapper.UserMapper;
+import com.hjw.community.ExerApplication;
+import com.hjw.community.entity.DiscussPost;
+import com.hjw.community.entity.User;
+import com.hjw.community.mapper.DiscussPostMapper;
+import com.hjw.community.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.hjw.entity;
+package com.hjw.community.entity;
 
 /**
  * 封装分页相关的信息.

@@ -1,4 +1,4 @@
-package com.hjw.entity;
+package com.hjw.community.entity;
 
 import java.util.Date;
 

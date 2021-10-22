@@ -1,4 +1,4 @@
-package com.hjw.dao;
+package com.hjw.community.dao;
 
 import org.springframework.stereotype.Repository;
 
