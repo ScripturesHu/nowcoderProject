@@ -12,7 +12,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -56,6 +55,7 @@ public class LoginTicketInterceptor implements HandlerInterceptor {
             modelAndView.addObject("loginUser", user);
         }
     }
+
     // 在TemplateEngine之后执行
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {

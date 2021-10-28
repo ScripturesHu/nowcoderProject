@@ -7,7 +7,9 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.web.WebAppConfiguration;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -31,5 +33,11 @@ public class SensitiveTest {
         String newText = sensitiveFilter.Filter(text);
         System.out.println(newText);
 
+    }
+    @Test
+    public void test(){
+
+        Integer i = -12;
+        System.out.println(i.toString());
     }
 }
